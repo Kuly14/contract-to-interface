@@ -36,5 +36,5 @@ As of now this tool only works for a flattened smart contracts, and only if ther
 
 ## TODO
 
-[] - Add flatten functionality.
-[] - Modify the parsing so it will work if there are multiple contracts in the same file.
+- [] Add flatten functionality.
+- [] Modify the parsing so it will work if there are multiple contracts in the same file.
