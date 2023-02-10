@@ -34,6 +34,9 @@ cargo r -- ~/path/to/your/contract.sol --destination ~/path/to/your/destination
 
 As of now this tool only works for a flattened smart contracts, and only if there is one smart contract in the file.
 
+## Disclaimer
+This is untested unaudited tool, do not use in production! Always cross reference if the interface has the right name and params, since if it varied from the smart contract the compiler will calculate wrong function selector and therefore any external call to that function will always fail.
+
 ## TODO
 
 - [ ] Add flatten functionality.
