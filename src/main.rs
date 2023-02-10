@@ -36,7 +36,7 @@ fn main() -> Result<()> {
     } else {
         let mut new_name = String::from("I");
         new_name.push_str(&contract.name);
-        new_name.push_str(&".sol");
+        new_name.push_str(".sol");
         let file_name = args.path.file_name().unwrap().to_str().unwrap();
         let path = args.path.to_str().unwrap().replace(file_name, &new_name);
         let mut file = File::create(path)?;

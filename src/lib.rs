@@ -99,7 +99,7 @@ impl Function {
             .collect::<String>()
             .split_whitespace()
             .take_while(|x| !x.contains("returns"))
-            .filter(|x| !FUNCTION_SIG_KEYWORDS.contains(&x) && x.len() > 1)
+            .filter(|x| !FUNCTION_SIG_KEYWORDS.contains(x) && x.len() > 1)
             .map(|x| x.to_string())
             .collect::<Vec<String>>();
 
