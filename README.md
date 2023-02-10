@@ -10,7 +10,7 @@ This tool will parse any smart contract and will wirte the interface for you.
 ## Usage
 1. Clone this repo:
 ```bash
-git clone <link>
+git clone https://github.com/Kuly14/contract-to-interface.git
 ```
 
 2. Run the program
